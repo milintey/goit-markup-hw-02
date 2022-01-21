@@ -1,0 +1,129 @@
+:root {
+  --background-color: #ffffff;
+  --h2-h3-text-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1, 71;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Roboto, sans-serif;
+  color: var(--h2-h3-text-color);
+  font-weight: 700;
+}
+
+span {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.navigation .navigation-link:hover,
+.navigation .navigation-link:focus {
+  color: var(--accent-color);
+}
+
+.info .info-link:hover,
+.info .info-link:focus {
+  color: var(--accent-color);
+}
+
+.address .address-link:focus,
+.address .address-link:hover {
+  color: var(--accent-color);
+}
+
+.title {
+  background-color: #2f303a;
+  color: var(--background-color);
+  font-size: 44px;
+  line-height: 1, 36;
+  font-weight: 900;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1, 87;
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
+
+.title-section {
+  font-family: Roboto, sans-serif;
+  font-size: 36px;
+  line-height: 1, 17;
+  font-weight: 700;
+  color: var(--h2-h3-text-color);
+  text-align: center;
+}
+
+.navigation-item {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  color: var(--background-color);
+}
+
+.features-title {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1, 14;
+  font-weight: 700;
+  color: var(--h2-h3-text-color);
+}
+
+.team-title {
+  font-family: Roboto, cans-serif;
+  font-size: 16px;
+  line-height: 1, 12;
+  font-weight: 500;
+  color: var(--h2-h3-text-color);
+}
+
+.team-text {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1, 12;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.projects-title {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  color: var(--h2-h3-text-color);
+}
+
+.projects-text {
+  font-size: 16px;
+  line-height: 1, 87;
+  font-weight: 400;
+  color: var(--text-color);
+}
